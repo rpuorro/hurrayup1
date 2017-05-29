@@ -18,7 +18,7 @@
     var greeting;
     if (hour < 12) {
         greeting = "your breakfast destination selector";
-    } else if (hour < 15){
+    } else if (hour < 19){
         greeting = "your lunch destination selector";
     } else if (hour < 24){
     greeting = "your dinner destination selector";
