@@ -1,0 +1,133 @@
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.header-wrapper {
+    background-color: #E1F5FE;
+    display: inline-block;
+    float: left;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 30px;
+
+
+
+
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #4A148C;
+    line-height: 1em;
+    padding: 0;
+    margin:20px ;
+
+
+
+}
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #4A148C;
+    text-align: center;
+
+
+}
+ p {
+     font-family: "Playfair Display", serif;
+     font-size: 30px;
+     text-align: center;
+     color: #4A148C;
+
+
+ }
+ #which-meal{
+     display: inline-block;
+     float: left;
+     margin: auto;
+     width: 100%;
+     line-height: 1.5em;
+
+
+ }
+#logo{
+    display:block;
+    float: left;
+    width: 10%;
+    margin: 0 45% 0;
+    padding: 25px;
+
+}
+#eat {
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #2979FF;
+    line-height: 3em;
+
+
+
+}
+#chooser {
+    text-align: center;
+    outline: none;
+    border: 2px solid #4A148C;
+    color: #4A148C;
+    background-color: #ffffff;
+    padding: 30px;
+    font-size: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    align-items: center;
+margin: auto;
+}
+
+#chooser:hover {
+    color: #ffffff;
+    background-color: #4A148C;
+
+
+}
+
+.flex-container {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+.row {
+    width: 100%;
+}
