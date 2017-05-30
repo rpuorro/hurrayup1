@@ -17,11 +17,11 @@
     var hour = new Date().getHours();
     var greeting;
     if (hour < 12) {
-        greeting = "your breakfast destination selector";
+        greeting = "breakfast destination selector";
     } else if (hour < 19){
-        greeting = "your lunch destination selector";
+        greeting = "lunch destination selector";
     } else if (hour < 24){
-    greeting = "your dinner destination selector";
+    greeting = "dinner destination selector";
 }
     document.getElementById("which-meal").innerHTML = greeting;
 
@@ -35,10 +35,18 @@
 
 function getDinner() {
 
-    var foodArray = ["Mesa", "Cedar's", "Portland Pie", "Park 'n Sandwich", "Ice Cream Shoppe", "Feng Shui", "Crane Takeout", "Taco Place", "Deborah's", "Veggie Galaxy", "Qdoba"];
-
+    var foodArray = ["Mesa", "Cedar's", "Portland Pie", "Park 'n Sandwich","Republic", "California Burritos",
+        "Milk and Honey", "Pressed", "Ice Cream Shoppe", "Feng Shui", "Crane Takeout", "Taco Place", "Deborah's",
+        "Veggie Galaxy", "Boloco"];
     restaurantSelected = foodArray[Math.floor(Math.random() * foodArray.length)];
 
+    document.getElementById("eat").innerHTML = restaurantSelected
+    }
+// function rate() {
+//
+//
+//     document.getElementById("rate").innerHTML = "Have you been here before?";
+// }
+//
 
-    document.getElementById("eat").innerHTML = restaurantSelected;
-}
+
